@@ -7,6 +7,6 @@ def make_anagramm(word):
     return ''.join(word_list)
 
 
-Word = input()
+word = input()
 
-print(make_anagramm(Word))
+print(make_anagramm(word))

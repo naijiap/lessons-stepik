@@ -7,6 +7,6 @@ def get_lottery_numbers():
         numbers.add(num)
     return numbers
 
-Sort_numbers = sorted(get_lottery_numbers())
+sort_numbers = sorted(get_lottery_numbers())
 
-print(*Sort_numbers)
+print(*sort_numbers)
